@@ -1,0 +1,13 @@
+ 
+<view>
+<text class='page__title'>幸福老年生活从听歌开始showtime</text>
+<view class='picture'style="width:414px;height:736px">
+<view class='selection'>
+    <image src='{{tempFilePaths}}' class='img' mode="aspectFit"></image>
+    <view class='btns'>
+      <button bindtap='validate1'>音乐欣赏</button>
+      <button bindtap='validate2'>听歌识曲</button>
+    </view>
+  </view>
+</view>
+</view>

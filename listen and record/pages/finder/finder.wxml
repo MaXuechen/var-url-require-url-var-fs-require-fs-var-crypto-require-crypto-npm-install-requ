@@ -1,0 +1,7 @@
+<view class="container">
+  <form bindsubmit="findMusic" bindreset="">
+    <text>输入可以随机播放哦：</text>
+    <input name="song" placeholder="仿着例子输哦" value="426881487" />
+    <button formType="submit">播放！</button>
+  </form>
+</view>

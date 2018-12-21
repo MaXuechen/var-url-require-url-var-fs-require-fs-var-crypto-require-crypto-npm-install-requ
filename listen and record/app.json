@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/listen/listen",
+    "pages/logs/logs",
+    "pages/recommend/recommend",
+    "pages/list/list",
+    "pages/player/player",
+    "pages/finder/finder"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "最可爱的我献给最可敬的你",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#888",
+      "selectedColor": "#D81E06",
+      "backgroundColor": "#FFF",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/finder/finder",
+          "text": "找音乐",
+          "iconPath": "asset/finder.png",
+          "selectedIconPath": "asset/finder-highlight.png"
+        },
+        {
+          "pagePath": "pages/recommend/recommend",
+          "text": "音乐单",
+          "iconPath": "asset/recommend.png",
+          "selectedIconPath": "asset/recommend-highlight.png"
+        },
+        {
+          "pagePath": "pages/list/list",
+          "text": "播放器",
+          "iconPath": "asset/music.png",
+          "selectedIconPath": "asset/music-highlight.png"
+        }
+      ]
+    }
+}

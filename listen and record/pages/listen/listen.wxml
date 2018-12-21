@@ -1,0 +1,9 @@
+<view>
+<view class='picture1'style="width:414px;height:736px">
+<button bindtap="start"class='goodbutton'  hover-class="hover">开始录音</button>
+<button bindtap="pause"class='goodbutton'  hover-class="hover">暂停录音</button>
+<button bindtap="stop"class='goodbutton'  hover-class="hover">停止录音</button>
+<button bindtap="play"class='goodbutton'  hover-class="hover">播放录音</button>
+<button bindtap="upload"class='goodbutton'  hover-class="hover">上传录音</button>
+</view>
+</view>

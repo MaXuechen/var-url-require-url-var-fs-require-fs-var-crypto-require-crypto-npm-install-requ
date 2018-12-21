@@ -1,0 +1,5 @@
+<view class="container">
+  <view bindtap="pauseSong">
+    <button type="default" size="miniSize" bindtap="havaTest">点一下，你就看到</button>
+  </view>
+  </view>
